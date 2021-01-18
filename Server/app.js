@@ -11,7 +11,7 @@ app.use(cors());
 
 //Connect to mlab DB
 mongoose.connect(
-  "mongodb+srv://hosam:test123@graphql-hosam.nrk8q.mongodb.net/graphql-hosam?retryWrites=true&w=majority"
+  "mongodb+srv://hosam:Test123@graphql-hosam.nrk8q.mongodb.net/graphql-hosam?retryWrites=true&w=majority"
 );
 mongoose.connection.once("open", () => {
   console.log("Connected to DB...");
